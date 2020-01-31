@@ -41,15 +41,23 @@ champInfo.addEventListener('click', function(event){
   }
 
   function displayChamp() {
-    const championInfo = document.querySelector('#aatroxinfo');
-    if (championInfo.style.display === 'none') {
-      championInfo.style.display = 'block';
+    const championInfo1 = document.querySelector('#aatroxinfo');
+    if (championInfo1.style.display === 'none') {
+      championInfo1.style.display = 'block';
     } else {
-      championInfo.style.display = 'none';
+      championInfo1.style.display = 'none';
+    }
+  }
+  function displayChamp2() {
+    const championInfo2 = document.querySelector('#ahriInfo');
+    if (championInfo2.style.display === 'none') {
+      championInfo2.style.display = 'block';
+    } else {
+      championInfo2.style.display = 'none';
     }
   }
 
 // scroll to top on reload//
-  window.onbeforeunload = function () {
+ window.onbeforeunload = function () {
     window.scrollTo(0, 0);
   }

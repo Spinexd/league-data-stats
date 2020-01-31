@@ -4,7 +4,7 @@ background: url(sr.jpg);
 background-attachment: fixed;
 width: 100vw;
 height: 500vh;
-overflow: hidden; 
+/*overflow: hidden; */
 }
 
 #h1{
@@ -75,7 +75,7 @@ h3 {
     display: grid;
     grid-column-start: 0;
 
-   display: none;
+   /*display: none; */
 }
 
 #championsearch {
@@ -94,14 +94,19 @@ h3 {
     border: rgb(0, 36, 6) solid 10px;
     background-color: rgb(0, 36 , 6);
     width: 55px;
-    height: 50px;
+    height: 60px;
     margin-left: -0.7%;
+    display: flex;
+    justify-content: center;
+    
 }
 
 #sidemenutoggle{
     margin: auto;
     background: none;
     border: none;
+    
+    
 }
 
 #champinfo {
@@ -137,6 +142,26 @@ h3 {
 }
 
 #aatrox2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+#ahriInfo {
+    background-image: url(https://i.imgur.com/EFdr2fz.jpg);
+    height: 1000px;
+    background-repeat: no-repeat;
+    display: none;
+
+}
+
+#ahri {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: -1%;
+
+}
+
+#ahri2 {
     font-size: 20px;
     text-align: center;
 }
