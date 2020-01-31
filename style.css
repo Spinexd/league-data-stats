@@ -4,7 +4,7 @@ background: url(sr.jpg);
 background-attachment: fixed;
 width: 100vw;
 height: 500vh;
-overflow: hiddens; change later 
+overflow: hidden; 
 }
 
 #h1{
@@ -75,7 +75,7 @@ h3 {
     display: grid;
     grid-column-start: 0;
 
-   display: none; change later
+   display: none;
 }
 
 #championsearch {
