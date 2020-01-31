@@ -1,0 +1,142 @@
+body {
+background-color: black;
+background: url(sr.jpg);
+background-attachment: fixed;
+width: 100vw;
+height: 500vh;
+/*overflow: hiddens; change later*/ 
+}
+
+#h1{
+    background: url(lol-logo.jpg);
+    background-repeat: no-repeat;
+    height: 180px;
+   
+
+}
+#h1border {
+text-align: center;
+margin-left: 40%;
+
+
+}
+
+h3 {
+    font-family: Friz Quadrata;
+    color: rgb(187, 156, 0);
+    font-weight: 500;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-right: 50%;
+}
+
+#browse {
+
+    border: 3px solid rgba(192,252,253,.7);
+    border-radius: 0;
+    padding: 13px 35px 12px;
+    color: #f0e6d2;
+    font-size: 18px;
+    font-family: "Beaufort for LOL";
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    background: #1e2328;
+    background-image: transparent;
+    box-shadow: 0 0 0 0 transparent;
+    border-image: linear-gradient(to bottom,#08abac 0,#01698b 100%);
+    border-image-slice: 1;
+    transition: all ease .5s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    margin-top: 15%;
+    margin-left: 47%;
+    margin-bottom: 300px;
+
+}
+#browse:hover {
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 0 0 10px 4px rgba(192,252,253,.4), inset 0 0 5px 2px rgba(192,252,253,.3);
+    border: 3px solid rgba(192,252,253,.7);
+}
+
+#champions {
+    font-size: 30px;
+    color: white;
+    border: rgb(0, 36 , 6) solid 10px;
+    height: 3000px;
+    width: 150px;
+    background-color: rgb(8, 8, 44);
+    position: absolute;
+    margin-left: -0.7%;
+    display: grid;
+    grid-column-start: 0;
+
+    /*display: none; change later */
+}
+
+#championsearch {
+    width: 94%;
+    height: 35px;
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    border: 3px solid rgb(0, 36 , 6);
+    color: white;
+    font-family: Friz Quadrata;
+    
+}
+
+#sidemenu {
+    border: rgb(0, 36, 6) solid 10px;
+    background-color: rgb(0, 36 , 6);
+    width: 55px;
+    height: 50px;
+    margin-left: -0.7%;
+}
+
+#sidemenutoggle{
+    margin: auto;
+    background: none;
+    border: none;
+}
+
+#champinfo {
+    border: rgb(0, 36 , 6) solid 10px;
+    height: 1000px;
+    width: 1000px;
+    margin-left: 20%;
+    background-color: rgb(8, 8, 44);
+    color: white;
+    
+}
+
+#champinfodisplay {
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: white;
+}
+
+#aatroxinfo {
+    display: none;
+    background-image: url(https://i.imgur.com/aDObJhX.jpg);
+    height: 1000px;
+    background-repeat: no-repeat;
+}
+
+#aatrox {
+
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: -1%;
+
+}
+
+#aatrox2 {
+    font-size: 20px;
+    text-align: center;
+}
