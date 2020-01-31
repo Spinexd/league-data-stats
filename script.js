@@ -49,4 +49,7 @@ champInfo.addEventListener('click', function(event){
     }
   }
 
-  
+// scroll to top on reload//
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  }
